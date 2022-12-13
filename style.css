@@ -1,407 +1,962 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    padding-left: 4rem;
-    display: flex;
+.navbar {
+  padding-left: 4rem;
+  display: flex;
 }
 
-.navbar-nav{
-    gap: 2rem;
-    padding-left: 16rem;
-    font-weight: 700;
-    font-size: 1rem;
+.navbar-nav {
+  gap: 2rem;
+  padding-left: 16rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 /* hero */
-.sell{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 4rem;
+.sell {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
 }
 
-.sellTxt{
-    padding: 5rem;
+.sellTxt {
+  padding: 5rem;
 }
 
-.sellTxt > h1{
-    font-size: 4rem;
-    text-shadow: 1px 1px 1px black;
-
+.sellTxt > h1 {
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px black;
 }
 
 .sellTxt > h1 > bold {
-    color: green;
+  color: green;
 }
 
 .sellTxt > .btn {
-   margin-right: 2rem;
+  margin-right: 2rem;
 }
 
-.sellImg > img{
-    width: 33rem;
+.sellImg > img {
+  width: 33rem;
 }
 
 /* Manage */
-.manage{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    gap: 2rem;
+.manage {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  gap: 2rem;
 }
 
-.manageImg > img{
-     width: 32rem;
+.manageImg > img {
+  width: 32rem;
 }
 
-.manageTxt > p{
-    font-size: 17px;
+.manageTxt > p {
+  font-size: 17px;
 }
 
-
-.manageTxt > h2{
-    font-size: 38px;
+.manageTxt > h2 {
+  font-size: 38px;
 }
-
 
 /* product */
 
-.product{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color:lightblue ;
-    margin-bottom: 3rem;
-    padding: 1rem;
+.product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightblue;
+  margin-bottom: 3rem;
+  padding: 1rem;
 }
-.productImg > img{
-    width: 37rem;
-}
-
-.productTxt > p{
-    font-size: 18px;
-    font-weight: 500;
+.productImg > img {
+  width: 37rem;
 }
 
-
-.productTxt > h2{
-    font-size: 2rem;
+.productTxt > p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
+.productTxt > h2 {
+  font-size: 2rem;
+}
 
 /* convert */
 
-.convert{
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    align-items: center;
+.convert {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
 }
 
-.convertImg > img{
-    width: 33rem;
+.convertImg > img {
+  width: 33rem;
 }
 
-.convertTxt > h2{
-    font-size: 2.5rem;
+.convertTxt > h2 {
+  font-size: 2.5rem;
 }
 
-.convertTxt > p{
-    font-size: 18px;
+.convertTxt > p {
+  font-size: 18px;
 }
 
 /* shopping */
 
 .shopping {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
 }
 
-.shoppingImg > img{
-   width: 40rem;
+.shoppingImg > img {
+  width: 40rem;
 }
 
-.shoppingTxt > h2{
-    font-size: 2.5rem;
+.shoppingTxt > h2 {
+  font-size: 2.5rem;
 }
 
-.shoppingTxt > p{
-    font-size: 18px;
+.shoppingTxt > p {
+  font-size: 18px;
 }
-
 
 /* customer */
 
-.customer > h2{
-    text-align: center;
-    font-size: 2.5rem;
+.customer > h2 {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
-
-.customer > h2 >strong{
-   color: green;
+.customer > h2 > strong {
+  color: green;
 }
 
-.customerBox{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+.customerBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
-.customer1{
-    border: 3px solid green;
-    padding: 2rem;
-    border-radius: 1rem;
+.customer1 {
+  border: 3px solid green;
+  padding: 2rem;
+  border-radius: 1rem;
 }
 
-.customer1 > h4{
-    text-align: center;
+.customer1 > h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.customer1 > p {
+  text-align: center;
+  font-weight: 450;
+  padding-top: 5px;
+}
+
+.started {
+  border: 3px solid grey;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  width: 45rem;
+  border-radius: 12px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
     font-weight: 600;
-}
-
-
-.customer1 > p{
-    text-align: center;
-    font-weight: 450;
+    font-size: 15px;
+  }
+  .sell {
     padding-top: 5px;
+    justify-content: center;
+  }
+  .sellTxt > h1 {
+    font-size: 2rem;
+  }
+  .sellTxt > h3 {
+    font-size: 1rem;
+  }
+  .sellTxt > p {
+    font-size: 10px;
+  }
+  .sellTxt > .btn {
+    margin-bottom: 1rem;
+  }
+  .sellImg > img {
+    width: 20rem;
+  }
+  .manageTxt > h2 {
+    font-size: 30px;
+  }
+  .manageTxt > p {
+    font-size: 13px;
+  }
+  .manageImg > img {
+    width: 20rem;
+  }
+  .productImg > img {
+    width: 17rem;
+  }
+  .productTxt > h2 {
+    font-size: 2rem;
+  }
+  .productTxt > p {
+    font-size: 14px;
+  }
+  .convertTxt > p {
+    font-size: 10px;
+  }
+  .convertTxt > h2 {
+    font-size: 1.5rem;
+  }
+  .convertImg > img {
+    width: 20rem;
+  }
+  .shoppingTxt > h2 {
+    font-size: 1.5rem;
+  }
+  .shoppingTxt > p {
+    font-size: 15px;
+  }
+  .shoppingImg > img {
+    width: 20rem;
+  }
+  .customer > h2 {
+    font-size: 1.5rem;
+    padding: 13px;
+  }
+  .customer1 {
+    padding: 12px;
+  }
+  .customer1 > h4 {
+    font-size: 1rem;
+  }
+  .customer1 > p {
+    font-size: 13px;
+  }
+  .customerBox {
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+  .started {
+    width: 30rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 1rem;
+  }
+  .started > h1 {
+    font-size: 1.5rem;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .sell {
+    align-items: center;
+  }
+  .started {
+    width: 25rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    padding-left: 6rem;
+  }
+  .sell {
+    flex-direction: column;
+  }
+  .sellTxt > h1 {
+    font-size: 3rem;
+  }
+  .sellTxt > h3 {
+    font-size: 17px;
+  }
+  .sellTxt > p {
+    font-size: 12 px;
+  }
+  .sellImg > img {
+    width: 25rem;
+  }
+  .manage {
+    flex-direction: column;
+  }
+  .manageTxt > h2 {
+    font-size: 38px;
+    padding-left: 7px;
+  }
+  .manageTxt > p {
+    font-size: 13px;
+    padding: 10px;
+  }
+  .product {
+    flex-direction: column;
+  }
+  .productTxt > h2 {
+    font-size: 30px;
+  }
+  .productTxt > p {
+    font-size: 1px;
+  }
+  .convert {
+    flex-direction: column;
+  }
+  .convertTxt > h2 {
+    font-size: 1.8rem;
+  }
+  .convertTxt > p {
+    font-size: 12px;
+  }
+  .shopping {
+    flex-direction: column;
+  }
+  .shoppingTxt > h2 {
+    font-size: 2rem;
+  }
+  .shoppingTxt > p {
+    font-size: 12px;
+  }
+  .customerBox {
+    flex-direction: column;
+  }
+  .customer1 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .started {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .started {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 18rem;
+  }
+}
 
 /*======================== about page =========================*/
 
 /* exchange */
 
-.exchange{
-    background-color: rgb(1, 92, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.exchange {
+  background-color: rgb(1, 92, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .exchangeImg > img {
-    width: 35rem;
+  width: 35rem;
 }
 
 .exchangeTxt {
-    color: #fff;
-    text-shadow: 2px 2px 2px grey;
+  color: #fff;
+  text-shadow: 2px 2px 2px grey;
 }
 
 /* story */
 
-.story{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 .storyImg > img {
-    width: 45rem;
-    padding: 5rem;
+  width: 45rem;
+  padding: 5rem;
 }
 
-.storyTxt > h1 > strong{
-    color: green;
+.storyTxt > h1 > strong {
+  color: green;
 }
 
-.storyTxt > h4 > strong{
-    color: green;
+.storyTxt > h4 > strong {
+  color: green;
 }
 
-.storyTxt > p{
-    font-size: 1rem;
+.storyTxt > p {
+  font-size: 1rem;
 }
 
 /* vision */
 
-.vision{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    padding: 2rem;
+.vision {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
 }
 
-.vision1 > h1{
-    font-weight: 600;
-    text-shadow: 1px 1px 1px grey;
+.vision1 > h1 {
+  font-weight: 600;
+  text-shadow: 1px 1px 1px grey;
 }
 
-
-.vision1 > p{
-    font-weight: 500;
+.vision1 > p {
+  font-weight: 500;
 }
-
 
 .vision1 {
-    border: 2px solid black;
-    padding: 2rem;
-    width: 25rem;
-    text-align: center;
-    border-radius: 12px;
-    margin-bottom: 3rem;
+  border: 2px solid black;
+  padding: 2rem;
+  width: 25rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 3rem;
 }
 
-.vsnBox{
-    border: 3px solid rgb(82, 82, 247);
-    background-color: rgb(207, 236, 255);
+.vsnBox {
+  border: 3px solid rgb(82, 82, 247);
+  background-color: rgb(207, 236, 255);
 }
 
-.vsn-box{
-    border: 3px solid rgb(247, 68, 68);
-    background-color: rgb(252, 198, 198);
+.vsn-box {
+  border: 3px solid rgb(247, 68, 68);
+  background-color: rgb(252, 198, 198);
 }
 
 /* values */
 
-.value{
-    text-align: center;
+.value {
+  text-align: center;
 }
 
-.value > h4{
-   font-weight: 600;
-   font-size: 2.5rem;
-   color: rgb(1, 61, 1);
+.value > h4 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(1, 61, 1);
 }
 
-
-.value > h1{
-   font-weight: 700;
-   font-size: 4rem;
-   color: black;
+.value > h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: black;
 }
 
-.value > h5{
-    font-weight: 400;
-    font-size: 1.7rem;
-    padding-bottom: 3rem;
+.value > h5 {
+  font-weight: 400;
+  font-size: 1.7rem;
+  padding-bottom: 3rem;
 }
 
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
 
-.started {
-    border: 3px solid grey;
-    padding: 3rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    width: 45rem;
-    border-radius: 12px;
-    margin-left: 20rem;
-    margin-right: 20rem;
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .exchangeTxt > h1 {
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+  .exchangeTxt > p {
+    font-size: 1rem;
+    padding-left: 4rem;
+  }
+  .exchangeTxt > .btn {
+    margin-left: 4rem;
+  }
+  .exchangeImg > img {
+    width: 20rem;
+  }
+  .storyTxt {
+    padding-left: 4rem;
+  }
+  .storyTxt > h1 {
+    font-size: 2.5rem;
+  }
+  .storyTxt > h4 {
+    font-size: 1rem;
+  }
+  .storyTxt > p {
+    font-size: 13px;
+  }
+  .storyImg > img {
+    width: 33rem;
+    padding: 7rem;
+  }
+  .vision1 {
+    width: 20rem;
+  }
+  .vision1 > h1 {
+    font-size: 2rem;
+  }
+  .vision1 > p {
+    font-size: 12px;
+  }
+  .value > h4 {
+    font-size: 2rem;
+  }
+  .value > h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .value > h5 {
+    font-size: 1.1rem;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .exchange {
+    padding: 2rem;
+  }
+  .exchangeTxt > p {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  .exchangeTxt > h1 {
+    padding-left: 1rem;
+  }
+  .storyTxt > h1 {
+    font-size: 3rem;
+  }
+  .storyTxt {
+    padding-left: 1rem;
+  }
+  .storyImg > img {
+    width: 18rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .navbar {
+    padding-left: 1rem;
+  }
+  .exchange {
+    flex-direction: column;
+  }
+  .exchangeTxt > .btn {
+    margin-left: 2rem;
+  }
+  .story {
+    flex-direction: column;
+  }
+  .vision {
+    flex-direction: column;
+  }
+}
 
 /*==================== integration page =====================*/
 
 .seamlessly {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
 }
 
-.seamlesslyTxt > h1{
-    font-size: 50px;
-    font-weight: 600;
+.seamlesslyTxt > h1 {
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.seamlesslyTxt > p{
-    font-size: 20px;
-    font-weight: 400;
+.seamlesslyTxt > p {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .seamlesslyImg > img {
-    width: 45rem;
-} 
-
-/*====================== commerce page ====================*/
-
-
-.scale{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5rem;
-    background-color: rgb(223, 243, 250);
+  width: 45rem;
 }
 
-.scaleImg > img{
-    width: 35rem;
-}
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
 
-.scaleTxt >h1{
-    font-size: 3.5rem;
-    color: black;
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
     font-weight: 600;
-    text-shadow: 2px 2px 2px grey;
+    font-size: 15px;
+  }
+  .seamlesslyImg > img {
+    width: 23rem;
+  }
+  .seamlesslyTxt > h1 {
+    font-size: 30px;
+  }
+  .seamlesslyTxt > p {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .seamlesslyTxt > h1 {
+    font-size: 25px;
+  }
+  .seamlesslyTxt > p {
+    font-size: 13px;
+  }
 }
 
-.scaleTxt > p{
-    font-size: 1.2rem;
-    color: black;
-    font-weight: 400;
+@media screen and (max-width: 425px) {
+  .seamlessly {
+    flex-direction: column;
+  }
+  .seamlesslyTxt > h1 {
+    font-size: 38px;
+  }
+  .seamlesslyTxt > p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .seamlesslyTxt > h1 {
+    font-size: 32px;
+  }
+  .seamlesslyTxt > p {
+    font-size: 20px;
+  }
+  .seamlesslyImg > img {
+    width: 17rem;
+  }
+}
+
+/* *====================== commerce page ====================*/
+
+.scale {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgb(223, 243, 250);
+}
+
+.scaleImg > img {
+  width: 35rem;
+}
+
+.scaleTxt > h1 {
+  font-size: 3.5rem;
+  color: black;
+  font-weight: 600;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.scaleTxt > p {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 400;
 }
 
 /* custom */
 
-.Custom{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
+.Custom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
 }
 
-.customImg > img{
-    width: 37rem;
+.customImg > img {
+  width: 37rem;
 }
 
-.customTxt > h1{
-    font-size: 2.6rem;
-    color: black;
-    font-weight: 600;
+.customTxt > h1 {
+  font-size: 2.6rem;
+  color: black;
+  font-weight: 600;
 }
 
-.customTxt > p{
-    font-size: 1.1rem;
-    color: black;
-    font-weight: 400;
+.customTxt > p {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
 }
 
 /* collaborate */
 
-.Collaborate{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: rgb(223, 243, 250);
-    gap: 4rem;
+.Collaborate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: rgb(223, 243, 250);
+  gap: 4rem;
 }
 
-.collaborateImg > img{
-    width: 30rem;
+.collaborateImg > img {
+  width: 30rem;
 }
-
 
 /* safeguard */
 
-.Safeguard{
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
-    padding: 4rem;
-    align-items: center;
+.Safeguard {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 4rem;
+  align-items: center;
 }
 
+/*==================== Pricing Page =====================*/
 
+.SuperchargeTxt > h1 {
+  padding-left: 4rem;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 5rem;
+  color: black;
+}
 
+.SuperchargeTxt > h1 > strong {
+  color: green;
+}
+
+.SuperchargeTxt > p {
+  text-align: center;
+  padding-top: 1rem;
+  color: black;
+  padding-bottom: 3rem;
+}
+
+.Supercharge {
+  display: flex;
+}
+
+.SuperchargeBox1 {
+  border: 3px solid blue;
+  padding: 3rem;
+  margin: 2rem;
+  width: 40rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.SuperchargeBox1 > h2 {
+  color: blue;
+}
+.SuperchargeBox1 > hr {
+  color: rgb(0, 28, 119);
+  height: 3px;
+}
+
+.SuperchargeBox2 {
+  border: 3px solid green;
+  padding: 3rem;
+  margin: 2rem;
+  width: 40rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.SuperchargeBox2 > h2 {
+  color: green;
+}
+.SuperchargeBox2 > hr {
+  color: rgb(2, 81, 2);
+  height: 3px;
+}
+
+.SuperchargeBox3 {
+  border: 3px solid orange;
+  padding: 3rem;
+  margin: 2rem;
+  width: 40rem;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.SuperchargeBox3 > h2 {
+  color: orange;
+}
+
+.SuperchargeBox3 > hr {
+  color: rgb(204, 91, 4);
+  height: 3px;
+}
+
+.SuperchargeTxt > h3 {
+  font-size: 23px;
+  text-align: center;
+}
+
+/*================== notification page ===================*/
+
+.driveTxt > h1 > strong {
+  color: green;
+}
+
+.driveTxt {
+  text-align: center;
+  margin: 4rem;
+}
+
+.driveTxt > h1 {
+  font-size: 3rem;
+}
+
+.driveTxt > ul > li {
+  list-style: none;
+}
+
+/* Automate */
+
+.Automate {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.AutomateImg > img {
+  width: 40rem;
+}
+
+.AutomateTxt > h1 {
+  font-size: 3.5rem;
+  color: black;
+}
+
+/* Transform */
+
+.Transform {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.TransformImg > img {
+  width: 28rem;
+}
+
+.TransformTxt > h1 {
+  color: black;
+  font-size: 2.3rem;
+}
+
+/* Engage */
+
+.Engage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+}
+
+.EngageImg > img {
+  width: 23rem;
+  padding-right: 5rem;
+}
+
+.EngageTxt > h1 {
+  font-size: 2.3rem;
+  color: black;
+}
+
+.EngageTxt > ul li {
+  font-size: 1.1rem;
+  color: black;
+}
+
+/* Twist */
+
+.Twist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.TwistImg > img {
+  width: 35rem;
+}
+
+.TwistTxt > h1 {
+  color: black;
+}
+
+.TwistTxt > ul > li {
+  color: black;
+}
+
+/* Moniter */
+
+.Monitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.MonitorImg > img {
+  width: 35rem;
+}
+
+.MonitorTxt > h1 {
+  font-size: 2.5rem;
+}
+
+/* blueBox */
+
+.blueBox {
+  background-color: rgb(187, 227, 252);
+  padding: 4rem;
+}
+
+.blueBox > h1 {
+  text-align: center;
+}
+
+.blueBoxx {
+  display: flex;
+  gap: 2rem;
+}
+
+.blueBox1 {
+  border: 3px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.blueBox2 {
+  border: 3px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+.blueBox3 {
+  border: 3px solid black;
+  padding: 1rem;
+  text-align: center;
+}
