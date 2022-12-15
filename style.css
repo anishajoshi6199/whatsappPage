@@ -651,7 +651,7 @@
   }
 }
 
-/* *====================== commerce page ====================*/
+/* *====================== CRM page ====================*/
 
 .scale {
   display: flex;
@@ -726,6 +726,157 @@
   gap: 4rem;
   padding: 4rem;
   align-items: center;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .scaleTxt > h1 {
+    font-size: 2.5rem;
+  }
+  .scaleImg > img {
+    width: 30rem;
+  }
+  .customTxt > h1 {
+    font-size: 2rem;
+  }
+  .customTxt > p {
+    font-size: 1rem;
+  }
+  .customImg > img {
+    width: 30rem;
+  }
+  .collaborateImg > img {
+    width: 25rem;
+  }
+  .collaborateTxt > h1 {
+    font-size: 2.2rem;
+  }
+  .collaborateTxt > p {
+    font-size: 0.9rem;
+  }
+  .SafeguardTxt > h1 {
+    font-size: 2rem;
+  }
+  .SafeguardTxt > p {
+    font-size: 0.8rem;
+  }
+  .SafeguardImg > img {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scaleImg > img {
+    width: 20rem;
+  }
+  .scaleTxt > h1 {
+    font-size: 1.8rem;
+  }
+  .scaleTxt > p {
+    font-size: 1rem;
+  }
+  .customImg > img {
+    width: 20rem;
+  }
+  .customTxt > h1 {
+    font-size: 1.7rem;
+  }
+  .customTxt > p {
+    font-size: 0.8rem;
+  }
+  .collaborateImg > img {
+    width: 20rem;
+  }
+  .collaborateTxt > h1 {
+    font-size: 2rem;
+  }
+  .collaborateTxt > p {
+    font-size: 0.7rem;
+  }
+  .SafeguardImg > img {
+    width: 20rem;
+  }
+  .SafeguardTxt > h1 {
+    font-size: 1.8rem;
+  }
+  .SafeguardTxt > p {
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .scale {
+    flex-direction: column;
+  }
+  .scaleTxt > h1 {
+    font-size: 2.2rem;
+  }
+  .scaleTxt > p {
+    font-size: 1.3rem;
+  }
+  .scaleImg > img {
+    width: 23rem;
+  }
+  .Custom {
+    flex-direction: column;
+  }
+  .customTxt > h1 {
+    font-size: 1.6rem;
+  }
+  .customTxt > p {
+    font-size: 0.7rem;
+  }
+  .customImg > img {
+    width: 23rem;
+  }
+  .Collaborate {
+    flex-direction: column;
+  }
+  .collaborateImg > img {
+    width: 23rem;
+  }
+  .collaborateTxt > h1 {
+    font-size: 2.2rem;
+  }
+  .collaborateTxt > p {
+    font-size: 0.8rem;
+  }
+  .Safeguard {
+    flex-direction: column;
+  }
+  .SafeguardTxt > h1 {
+    font-size: 2.6rem;
+  }
+  .SafeguardTxt > p {
+    font-size: 1.3rem;
+  }
+  .SafeguardImg > img {
+    width: 23rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .scaleImg > img {
+    width: 18rem;
+  }
+  .customImg > img {
+    width: 18rem;
+  }
+  .collaborateImg > img {
+    width: 18rem;
+  }
+  .SafeguardImg > img {
+    width: 18rem;
+  }
 }
 
 /*==================== Pricing Page =====================*/
@@ -808,6 +959,107 @@
 .SuperchargeTxt > h3 {
   font-size: 23px;
   text-align: center;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .SuperchargeTxt > h1 {
+    font-size: 2rem;
+  }
+  .SuperchargeBox1 {
+    padding: 8px;
+    margin: 10px;
+    width: 20rem;
+  }
+  .SuperchargeBox2 {
+    padding: 8px;
+    margin: 10px;
+    width: 20rem;
+  }
+  .SuperchargeBox3 {
+    padding: 8px;
+    margin: 10px;
+    width: 20rem;
+  }
+  .SuperchargeBox1 > ul > li {
+    font-size: 13px;
+  }
+  .SuperchargeBox2 > ul > li {
+    font-size: 13px;
+  }
+  .SuperchargeBox3 > ul > li {
+    font-size: 13px;
+  }
+  .SuperchargeBox1 > img {
+    width: 120px;
+  }
+  .SuperchargeBox2 > img {
+    width: 120px;
+  }
+  .SuperchargeBox3 > img {
+    width: 120px;
+  }
+  .SuperchargeBox1 > p {
+    font-size: 13px;
+  }
+  .SuperchargeBox2 > p {
+    font-size: 13px;
+  }
+  .SuperchargeBox3 > p {
+    font-size: 13px;
+  }
+  .SuperchargeTxt > h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Supercharge {
+    flex-direction: column;
+  }
+  .SuperchargeBox1 {
+    margin: 2.5rem;
+  }
+  .SuperchargeBox2 {
+    margin: 2.5rem;
+  }
+  .SuperchargeBox3 {
+    margin: 2.5rem;
+  }
+  .SuperchargeTxt > h1 {
+    padding-left: 10px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .SuperchargeTxt > h1 {
+    padding-left: 7px;
+    font-size: 1.2rem;
+  }
+  .SuperchargeTxt > p {
+    padding-left: 9px;
+    font-size: 1rem;
+  }
+  .SuperchargeBox1 {
+    margin: 2.2rem;
+    width: 15rem;
+  }
+  .SuperchargeBox2 {
+    margin: 2.2rem;
+    width: 15rem;
+  }
+  .SuperchargeBox3 {
+    margin: 2.2rem;
+    width: 15rem;
+  }
 }
 
 /*================== notification page ===================*/
@@ -959,4 +1211,640 @@
   border: 3px solid black;
   padding: 1rem;
   text-align: center;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .driveTxt > h1 {
+    font-size: 1.5rem;
+  }
+  .driveTxt > p {
+    font-size: 10px;
+  }
+  .driveTxt > ul > li {
+    font-size: 8px;
+  }
+  .AutomateTxt > h1 {
+    font-size: 2.3rem;
+  }
+  .AutomateImg > img {
+    width: 25rem;
+  }
+  .TransformImg > img {
+    width: 23rem;
+  }
+  .TransformTxt > h1 {
+    font-size: 2rem;
+  }
+  .TransformTxt > ul > li {
+    font-size: 1rem;
+  }
+  .EngageImg > img {
+    width: 17rem;
+  }
+  .EngageTxt > h1 {
+    font-size: 1.8rem;
+  }
+  .EngageTxt > ul > li {
+    font-size: 1rem;
+  }
+  .TwistImg > img {
+    width: 25rem;
+  }
+  .TwistTxt > h1 {
+    font-size: 2.3rem;
+  }
+  .TwistTxt > ul > li {
+    font-size: 1rem;
+  }
+  .MonitorImg > img {
+    width: 25rem;
+  }
+  .MonitorTxt > h1 {
+    font-size: 2.1rem;
+  }
+  .MonitorTxt > ul > li {
+    font-size: 1rem;
+  }
+  .blueBox > h1 {
+    font-size: 2rem;
+  }
+  .blueBoxx {
+    gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .AutomateImg > img {
+    width: 20rem;
+  }
+  .AutomateTxt > h1 {
+    font-size: 2rem;
+  }
+  .AutomateTxt > p {
+    font-size: 13px;
+  }
+  .TransformImg > img {
+    width: 20rem;
+  }
+  .TransformTxt > h1 {
+    font-size: 1.8rem;
+  }
+  .TransformTxt > ul > li {
+    font-size: 1rem;
+  }
+  .EngageImg > img {
+    width: 15rem;
+  }
+  .EngageTxt > h1 {
+    font-size: 1.8rem;
+  }
+  .EngageTxt > ul > li {
+    font-size: 1rem;
+  }
+  .TwistImg > img {
+    width: 20rem;
+  }
+  .TwistTxt > h1 {
+    font-size: 2rem;
+  }
+  .TwistTxt > ul > li {
+    font-size: 0.8rem;
+  }
+  .MonitorImg > img {
+    width: 20rem;
+  }
+  .MonitorTxt > h1 {
+    font-size: 1.7rem;
+  }
+  .MonitorTxt > ul > li {
+    font-size: 0.9rem;
+  }
+  .blueBox > h1 {
+    font-size: 28px;
+  }
+  .blueBox1 > h3 {
+    font-size: 1.3rem;
+  }
+  .blueBox2 > h3 {
+    font-size: 1.3rem;
+  }
+  .blueBox3 > h3 {
+    font-size: 1.3rem;
+  }
+  .blueBox1 > p {
+    font-size: 0.7rem;
+  }
+  .blueBox2 > p {
+    font-size: 0.7rem;
+  }
+  .blueBox3 > p {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Automate {
+    flex-direction: column;
+  }
+  .AutomateImg > img {
+    width: 23rem;
+  }
+  .Transform {
+    flex-direction: column;
+  }
+  .TransformImg > img {
+    width: 23rem;
+  }
+  .Engage {
+    flex-direction: column;
+  }
+  .EngageImg > img {
+    width: 23rem;
+  }
+  .Twist {
+    flex-direction: column;
+  }
+  .TwistImg > img {
+    width: 23rem;
+  }
+  .Monitor {
+    flex-direction: column;
+  }
+  .MonitorImg > img {
+    width: 23rem;
+  }
+  .blueBoxx {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .AutomateImg > img {
+    width: 18rem;
+  }
+  .TransformImg > img {
+    width: 18rem;
+  }
+  .EngageImg > img {
+    width: 18rem;
+  }
+  .TwistImg > img {
+    width: 18rem;
+  }
+  .MonitorImg > img {
+    width: 18rem;
+  }
+  .AutomateTxt {
+    padding: 5px;
+  }
+  .TransformTxt {
+    padding: 5px;
+  }
+  .EngageTxt {
+    padding: 5px;
+  }
+  .TwistTxt {
+    padding: 5px;
+  }
+  .MonitorTxt {
+    padding: 5px;
+  }
+}
+
+/*========================  Automate Page =====================*/
+/* Automate */
+.Automate {
+  display: flex;
+}
+
+.AutomateTxt > h1 {
+  font-size: 3rem;
+}
+.AutomateImg > img {
+  width: 35rem;
+}
+
+/* Replies */
+.Replies {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: rgb(229, 246, 251);
+}
+.RepliesImg > img {
+  width: 15rem;
+}
+.RepliesTxt > h1 {
+  font-size: 2.8rem;
+}
+.RepliesTxt > p {
+  font-size: 1.1rem;
+}
+.RepliesTxt > ul > li {
+  font-size: 1.1rem;
+}
+/* Welcome */
+.Welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.WelcomeImg > img {
+  width: 30rem;
+}
+
+/* business */
+.business {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.businessImg > img {
+  width: 25rem;
+}
+.businessTxt > h1 {
+  font-size: 2.2rem;
+}
+
+/* Response */
+.Response {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+.ResponseImg > img {
+  width: 35rem;
+}
+.ResponseTxt > h1 {
+  font-size: 2.2rem;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .AutomateTxt > h1 {
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .AutomateTxt > p {
+    font-size: 13px;
+  }
+  .AutomateImg > img {
+    width: 20rem;
+  }
+  .RepliesTxt > h1 {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .RepliesTxt > p {
+    font-size: 15px;
+  }
+  .RepliesTxt > ul > li {
+    font-size: 15px;
+  }
+  .RepliesImg > img {
+    width: 13rem;
+  }
+  .WelcomeTxt > h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .WelcomeTxt > p {
+    font-size: 15px;
+  }
+  .WelcomeImg > img {
+    width: 25rem;
+  }
+  .businessTxt > h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .businessTxt > p {
+    font-size: 15px;
+  }
+  .businessImg > img {
+    width: 20rem;
+  }
+  .ResponseTxt > h1 {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .ResponseTxt > p {
+    font-size: 15px;
+  }
+  .ResponseImg > img {
+    width: 28rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AutomateTxt > h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .AutomateTxt > p {
+    font-size: 12px;
+  }
+  .AutomateImg > img {
+    width: 18rem;
+  }
+  .RepliesImg > img {
+    width: 11rem;
+  }
+  .WelcomeImg > img {
+    width: 20rem;
+  }
+  .businessImg > img {
+    width: 18rem;
+  }
+  .ResponseImg > img {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Automate {
+    flex-direction: column;
+    padding: 2rem;
+  }
+  .Replies {
+    flex-direction: column;
+  }
+  .Welcome {
+    flex-direction: column;
+  }
+  .business {
+    flex-direction: column;
+  }
+  .Response {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .AutomateImg > img {
+    width: 18rem;
+  }
+  .WelcomeImg > img {
+    width: 18rem;
+  }
+  .businessImg > img {
+    width: 16rem;
+  }
+  .ResponseImg > img {
+    width: 16rem;
+  }
+}
+
+/*================== chatwidget page ==================*/
+
+/* track */
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.trackTxt > h1 > strong {
+  color: green;
+}
+.trackImg > img {
+  width: 35rem;
+}
+
+/* Entry Points */
+.Entry > h1 {
+  text-align: center;
+  margin-top: 5rem;
+}
+.Entry > h1 > strong {
+  color: green;
+}
+.EntryBox {
+  display: flex;
+  justify-content: space-around;
+}
+.EntryBox1 > img {
+  width: 13rem;
+}
+.EntryBox2 > img {
+  width: 12rem;
+}
+.EntryBox3 > img {
+  width: 12rem;
+}
+.EntryBox1 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem;
+  border-radius: 12px;
+}
+.EntryBox2 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem;
+  border-radius: 12px;
+}
+.EntryBox3 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 1rem;
+  margin: 4rem;
+  border-radius: 12px;
+}
+
+/* Transform */
+.Transform {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.TransformImg > img {
+  width: 18rem;
+}
+
+/* Purchase */
+.Purchase {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem;
+}
+.PurchaseImg > img {
+  width: 18rem;
+}
+
+/* Post-purchase */
+.Post-purchase {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem;
+}
+.Post-purchaseImg > img {
+  width: 18rem;
+}
+
+/* ============================ */
+/*======== Responsive =========*/
+/* =========================== */
+
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    gap: 4px;
+    padding-left: 60px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .trackTxt > h1 {
+    font-size: 2rem;
+  }
+  .trackTxt > p {
+    font-size: 1rem;
+  }
+  .trackImg > img {
+    width: 25rem;
+  }
+  .EntryBox1 {
+    margin: 1.5rem;
+  }
+  .EntryBox2 {
+    margin: 1.5rem;
+  }
+  .EntryBox3 {
+    margin: 1.5rem;
+  }
+  .TransformImg > img {
+    width: 15rem;
+  }
+  .PurchaseImg > img {
+    width: 15rem;
+  }
+  .Post-purchaseImg > img {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .trackTxt > h1 {
+    font-size: 1.7rem;
+  }
+  .trackTxt > p {
+    font-size: 0.8rem;
+  }
+  .trackImg > img {
+    width: 20rem;
+  }
+  .EntryBox1 {
+    margin: 1.2rem;
+    padding: 5px;
+  }
+  .EntryBox2 {
+    margin: 1.2rem;
+    padding: 5px;
+  }
+  .EntryBox3 {
+    margin: 1.2rem;
+    padding: 5px;
+  }
+  .EntryBox1 > img {
+    width: 10rem;
+  }
+  .EntryBox2 > img {
+    width: 10rem;
+  }
+  .EntryBox3 > img {
+    width: 10rem;
+  }
+  .EntryBox1 > h3 {
+    font-size: 20px;
+  }
+  .EntryBox2 > h3 {
+    font-size: 20px;
+  }
+  .EntryBox3 > h3 {
+    font-size: 20px;
+  }
+  .EntryBox1 > p {
+    font-size: 12px;
+  }
+  .EntryBox2 > p {
+    font-size: 12px;
+  }
+  .EntryBox3 > p {
+    font-size: 12px;
+  }
+  .TransformImg > img {
+    width: 10rem;
+  }
+  .TransformImg > h1 {
+    font-size: 25px;
+  }
+  .TransformImg > p {
+    font-size: 10px;
+  }
+
+  .PurchaseImg > img {
+    width: 10rem;
+  }
+  .PurchaseImg > h1 {
+    font-size: 25px;
+  }
+  .PurchaseImg > p {
+    font-size: 10px;
+  }
+
+  .Post-purchaseImg > img {
+    width: 10rem;
+  }
+  .Post-purchaseImg > h1 {
+    font-size: 25px;
+  }
+  .Post-purchaseImg > p {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .track {
+    flex-direction: column;
+  }
+  .EntryBox {
+    flex-direction: column;
+  }
+  .Transform {
+    flex-direction: column;
+  }
+  .TransformTxt {
+    padding: 4rem;
+  }
+  .Purchase {
+    flex-direction: column;
+  }
+  .Post-purchase {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  .trackTxt {
+    padding: 2rem;
+  }
 }
